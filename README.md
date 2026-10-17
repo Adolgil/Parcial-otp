@@ -3,8 +3,8 @@
 Parcial de Desarrollo de Software. API de autenticación con registro, login,
 código OTP de 6 dígitos enviado por correo (válido 15 minutos) y tokens JWT.
 
-- **Autor:** (tu nombre completo)
-- **Despliegue:** https://TU-SERVICIO.onrender.com/docs
+- **Autor:** (Adolfo gil jimenez)
+- **Despliegue:** https://ADOLFOGIL.onrender.com/docs
 - **Repositorio:** https://github.com/Adolgil/Parcial-otp
 
 ## Stack
@@ -52,8 +52,8 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 OTP_EXPIRE_MINUTES=15
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=tucorreo@gmail.com
-SMTP_PASSWORD=contraseña-de-aplicación
+SMTP_USER=adolfogil054@gmail.com
+SMTP_PASSWORD={0}
 ```
 
 Para Gmail se necesita la verificación en dos pasos y una contraseña de aplicación.
