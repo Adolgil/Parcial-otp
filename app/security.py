@@ -1,4 +1,4 @@
-"""Utilidades de seguridad: hashing de contraseñas con bcrypt."""
+"""Utilidades de seguridad: se encuentra el hashing de contraseñas con bcrypt."""
 import bcrypt
 
 

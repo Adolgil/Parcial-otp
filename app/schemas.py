@@ -1,4 +1,4 @@
-"""Esquemas Pydantic para validar entradas y dar forma a las respuestas."""
+"""como se logra apreciar estos son los esquemas Pydantic que sirven para validar entradas y dar forma a las respuestas."""
 from datetime import datetime
 from typing import Optional
 
@@ -17,7 +17,7 @@ def _validar_password(v: str) -> str:
 
 
 class UserCreate(BaseModel):
-    """Datos para registrar un usuario."""
+    """los datos para registrar un usuario."""
     email: EmailStr
     password: str
     full_name: str = Field(min_length=2, max_length=100)
@@ -33,7 +33,7 @@ class UserCreate(BaseModel):
 
 
 class UserLogin(BaseModel):
-    """Credenciales de login."""
+    """en esta estan las credenciales de login."""
     email: EmailStr
     password: str
 
@@ -43,7 +43,7 @@ class UserLogin(BaseModel):
 
 
 class OTPVerify(BaseModel):
-    """Verificación del código OTP de 6 dígitos."""
+    """despues se hace la verificación del código OTP de 6 dígitos."""
     email: EmailStr
     code: str = Field(pattern=r"^\d{6}$")
 

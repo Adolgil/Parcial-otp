@@ -1,4 +1,4 @@
-"""Modelos SQLAlchemy: users, otp_codes y login_sessions."""
+""" en esta parte estan los modelos de SQLAlchemy: users, otp_codes y login_sessions."""
 from datetime import datetime, timezone
 
 from sqlalchemy import Boolean, Column, DateTime, ForeignKey, Integer, String, Text
